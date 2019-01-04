@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/register.js"></script>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="css/login-register.css">
+</head>
+<body>
+<div id="header" class="container-fluid">
+    <div id="header-content">
+        <div id="header-top" class="d-flex">
+            <div id="welcome-msg" class="mr-auto">Welcome to fresh life!</div>
+            <div id="menu" class="ml-auto">
+                <a href="login.html">Login</a>
+                <a href="register.html">Register</a>
+                <a href="user.html">My Account</a>
+                <a href="#">My Cart</a>
+                <a href="#">My Order</a>
+            </div>
+        </div>
+        <div id="header-center" class="d-flex">
+            <div id="logo" class="mr-auto"><a href="index.html">FRESH LIFE</a></div>
+            <div id="search" class="ml-auto">
+                <form action="#" method="POST" class="form-inline">
+                    <input id="search-text" type="text" class="form-control" placeholder="Search ..." name="">
+                    <button id="submit" type="submit" class="btn">Submit</button>
+                    <a href="#" class="cart_name">My Cart</a>
+                    <div class="goods_count" id="show_count">1</div>
+                </form>
+            </div>
+        </div>
+        <div id="nav">
+            <a href="index.html">HOME</a>
+            <span href="#">|</span>
+            <a href="#">FRUITS</a>
+            <span href="#">|</span>
+            <a href="#">VEGETABLES</a>
+            <span href="#">|</span>
+            <a href="#">ABOUT US</a>
+        </div>
+    </div>
+</div>
+<div id="center">
+    <div id="center-content">
+        <div id="center-title">LOGIN OR CREATE AN ACCOUNT</div>
+        <div id="service" class="d-flex">
+            <div id="left" class="common">
+                <h6>CUSTOMER LOGIN</h6>
+                <p>
+                    If you have an account with us, please log in.
+                </p>
+                <a href="login.html"><button type="button" class="btn">LOGIN</button></a>
+            </div>
+            <div id="right" class="common">
+                <h6>REGISTERED CUSTOMERS</h6>
+                <p></p>
+                <form method="post" action="#">
+                    <div class="form-group">
+                        <label for="user_name">Username:</label>
+                        <input type="text" class="form-control" id="user_name">
+                        <span class="error_tip">提示信息</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" id="pwd">
+                        <span class="error_tip">提示信息</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="cpwd">Repeat Password:</label>
+                        <input type="password" class="form-control" id="cpwd">
+                        <span class="error_tip">提示信息</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email">
+                        <span class="error_tip">提示信息</span>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="allow">
+                        <label class="form-check-label">agree "Fresh life user protocol"</label>
+                        <span class="error_tip">提示信息</span>
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="bottom-logo">FRESH LIFE</div>
+<div id="footer">
+    <span>©2018 All Copyright Reserved <a href="mailto:873268974@qq.com">kindleheart</a></span>
+</div>
+</body>
+</html>

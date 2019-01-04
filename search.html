@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>fresh life</title>
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/search.css">
+</head>
+<body>
+<div id="header" class="container-fluid">
+    <div id="header-content">
+        <div id="header-top" class="d-flex">
+            <div id="welcome-msg" class="mr-auto">欢迎来到 fresh life!</div>
+            <div id="menu" class="ml-auto">
+                <a href="login.html">登录</a>
+                <a href="register.html">注册</a>
+                <a href="user.html">账户</a>
+                <a href="#">购物车</a>
+                <a href="#">订单</a>
+            </div>
+        </div>
+        <div id="header-center" class="d-flex">
+            <div id="logo" class="mr-auto"><a href="index.html">FRESH LIFE</a></div>
+            <div id="search" class="ml-auto">
+                <form action="#" method="POST" class="form-inline">
+                    <input id="search-text" type="text" class="form-control" placeholder="Search ..." name="">
+                    <button id="submit" type="submit" class="btn">Submit</button>
+                    <a href="#" class="cart_name">My Cart</a>
+                    <div class="goods_count" id="show_count">1</div>
+                </form>
+            </div>
+        </div>
+        <div id="nav">
+            <a href="index.html">HOME</a>
+            <span href="#">|</span>
+            <a href="#">FRUITS</a>
+            <span href="#">|</span>
+            <a href="#">VEGETABLES</a>
+            <span href="#">|</span>
+            <a href="#">ABOUT US</a>
+        </div>
+    </div>
+</div>
+<div id="center">
+    <div id="center-content" class="d-flex">
+        <div id="left">
+            <div id="left-title">搜索结果如下</div>
+            <div class="left-slide">搜索关键字:</div>
+            <div class="left-slide">商品个数:</div>
+        </div>
+        <div id="right">
+            <ul>
+                <li>
+                    <div class="goods-image"><img src="./images/product9.jpg"></div>
+                    <div class="goods-name"><a href="#">Apple</a></div>
+                    <div class="goods-price">￥88.00</div>
+                    <div class="add-to-cart">ADD TO CART</div>
+                </li>
+                <li>
+                    <div class="goods-image"><img src="./images/product10.jpg"></div>
+                    <div class="goods-name"><a href="#">Apple</a></div>
+                    <div class="goods-price">￥88.00</div>
+                    <div class="add-to-cart">ADD TO CART</div>
+                </li>
+                <li>
+                    <div class="goods-image"><img src="./images/product1.jpg"></div>
+                    <div class="goods-name"><a href="#">Apple</a></div>
+                    <div class="goods-price">￥88.00</div>
+                    <div class="add-to-cart">ADD TO CART</div>
+                </li>
+                <li>
+                    <div class="goods-image"><img src="./images/product2.jpg"></div>
+                    <div class="goods-name"><a href="#">Apple</a></div>
+                    <div class="goods-price">￥88.00</div>
+                    <div class="add-to-cart">ADD TO CART</div>
+                </li>
+                <li>
+                    <div class="goods-image"><img src="./images/product3.jpg"></div>
+                    <div class="goods-name"><a href="#">Apple</a></div>
+                    <div class="goods-price">￥88.00</div>
+                    <div class="add-to-cart">ADD TO CART</div>
+                </li>
+            </ul>
+            <div class="pagenation">
+                <a href="#">&lt;</a>
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">&gt;</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="bottom-logo">FRESH LIFE</div>
+<div id="footer">
+    <span>©2018 All Copyright Reserved <a href="mailto:873268974@qq.com">kindleheart</a></span>
+</div>
+</body>
+</html>
